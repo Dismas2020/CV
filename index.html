@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Highschool leaving resume!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- The beginning of the header -->
+       <nav>
+            <div class="title" onclick="changeColor()" id="color">
+                <h3>Mutambiyineza Dismas</h3>
+                <h6>Junior Software Developer/ Creative Designer</h6>
+            </div>
+            <div class="profile">
+                <img src="img.jpg" alt="Profile picture">
+            </div>
+        </nav>
+    <!-- End of the Header division -->
+    <!-- beginning of content session -->
+        <div class="content">
+            <div class="right">
+            <div class="experience">
+                <h5>EXPERIENCE</h5>
+            <h4>Graphic Designer </h4>
+            <p>SANA Group Ltd</p>
+
+            <h5>feb 2022 - Present-1 year, Butare/Huye</h5>
+            
+        </div>
+                <div class="designer">
+                <h4> UI/UX Designer </h4>
+                <h5>Aug 2021 - Present - 1 year, Butare/Huye</h5>
+                <p> Directly collaborated with developers and Product designers at the University of rwanda to prototype, design and deliver the UI and UX experience with a lean design process: research, design, test, and iterate.</p>
+            </div>
+            <div class="ux">
+               <h4> 3D Designer</h4>
+                <h5>OCT 2021 - Present 1year, Butare/Huye</h5>
+                <p> the 3D designer with the accountability of the design system, collaborated with product designers on core projects to improve product interface and experiences.</p>
+            </div>
+            <div class="ui">
+                <h4>Data collector</h4>
+                <p>Educula</p>
+                <h5>Aug 2012 - jul 2013 - 1 year, Paris </h5>
+                <p>collaborated with the researchers to collect </p>
+            </div>
+
+            <div class="graphics">
+                <h4>Consultant</h4>
+                <p>Never Again Rwanda</p>
+                <h5>feb 2021 - April 2021 - 2 Months, Kigali Rwanda</h5>
+                <p>collaborating with researchers on the impact of Lock-down to different sectors (public and private) due to Covid-19</p>
+            </div>
+           
+            </div>
+            <div class="left">
+                <div class="contact">
+            
+                    <p >mutadisi2@aol.com</p>
+                    <p>+250 783 998 982</p>
+                    <p>Kigali, Rwanda</p>
+</div>
+<div class="industry">
+<h5>Industry Knowledge</h5>
+<p>Data Collection</p>
+<p>User Interface(UI)</p>
+<p>User Experience(Ux)</p>
+<p>Interaction Design(IXd)</p>
+<p>Wireframing</p>
+<p>Story and script Writing</p>
+<p>Photography and videography</p>
+<p>Design Research</p>
+</div>
+
+<div class="tools">
+
+<h5>Tools & Technologies</h5>
+<p>Figma, Adobe Xd,Adobe Illustrator, Adobe photoshop, Blender 3D, Rhinoceros 3D</p>
+</div>
+<div class="otherskills">
+<h5>Other Skills</h5>
+<p>
+HTML, CSS, jQuery
+</p>
+</div>
+<div class="languages">
+<h5>Languages</h5>
+<p>
+French (Basic),
+English (professionnal),
+Kinyarwanda (Native).
+</p>
+</div>
+<div class="social">
+<h5>Social</h5>
+<p>
+<p><a href="https://www.linkedin.com/in/mutambiyineza-dismas-75678a231/">https://www.linkedin.com/in/mutambiyineza-dismas-75678a231/</a></p>
+<p><a href="https://github.com/Dismas2020">https://github.com/Dismas2020</a></p>
+</p>
+</div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <script>
+        function changeColor(){
+            
+            var x = Math.floor(Math.random() * 256);
+            var y = Math.floor(Math.random() * 256);
+            var z = Math.floor(Math.random() * 256);
+            var color = "rgb(" + x + "," + y + "," + z + ")";
+        
+  
+    document.getElementById("color").style.color= color;
+    }
+
+    addEventListener("click", changeColor);
+            // document.getElementById('color').style.color="red";
+        
+      
+    </script>
+</body>
+</html>
